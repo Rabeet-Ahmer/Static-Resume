@@ -33,9 +33,6 @@ h2 {
   padding: 10px;
   margin-bottom: 2rem;
   border-radius: 2rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
 }
 h3 {
   margin: 1rem;
@@ -68,5 +65,11 @@ h3 {
   background-color: rgb(110 231 183);
   font-family: "Poppins", serif;
   font-weight: 600;
+  font-style: normal;
+}
+
+.font{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-style: normal;
 }
