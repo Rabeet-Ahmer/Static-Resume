@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
 
 * {
   padding: 0;
@@ -9,10 +9,19 @@
   cursor: default;
 }
 
+.image{
+  height:200px;
+  border: 1px solid;
+  border-radius: 10rem;
+  display: flex;
+  justify-self: center;
+  margin-bottom: 1rem;
+}
+
 .main {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 0;
+  margin: 1rem;
   padding: 0;
   background-color: rgb(241 245 249);
 }
@@ -41,10 +50,14 @@ h3 {
 .info {
   margin-bottom: 2rem;
 }
-.info span {
-  padding-left: 8rem;
+.lists {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  list-style: none;
   padding-top: 20px;
-  font-size: larger;
+  overflow: hidden;
 }
 
 .section {
@@ -67,8 +80,11 @@ h3 {
   font-weight: 600;
   font-style: normal;
 }
+.btn:hover {
+  cursor: pointer;
+}
 
-.font{
+.font {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
